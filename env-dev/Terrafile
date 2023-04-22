@@ -1,0 +1,3 @@
+  vpc:
+    repo:  "git@github.com:kevinalmansa/terrafile"
+    tag: "v0.0.1"
