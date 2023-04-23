@@ -1,3 +1,3 @@
-bucket = "myterraform-s3-learn"
+bucket = "myterraform-learn"
 key    = "dev/terraform/tfstate"
 region = "ap-south-1"
