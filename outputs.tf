@@ -29,9 +29,9 @@ output privateSubnet_cidrs{
 value = module.vpc.privateSubnet_cidrs
 }
 output env{
-value = module.env
+value = module.vpc.env
 }
 
 output vpc_cidr{
-value = module.vpc_cidr
+value = module.vpc.vpc_cidr
 }
