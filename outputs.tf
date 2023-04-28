@@ -35,3 +35,16 @@ value = module.vpc.env
 output vpc_cidr{
 value = module.vpc.vpc_cidr
 }
+
+output PRIVATE_HOSTED_ZONE_ID{
+value = module.vpc.PRIVATE_HOSTED_ZONE_ID
+}
+output PRIVATE_HOSTED_ZONE_NAME {
+value = module.vpc.PRIVATE_HOSTED_ZONE_NAME
+}
+output PUBLIC_HOSTED_ZONE_ID {
+value = module.vpc.PUBLIC_HOSTED_ZONE_ID
+}
+output PUBLIC_HOSTED_ZONE_NAME {
+value = module.vpc.PUBLIC_HOSTED_ZONE_NAME
+}
